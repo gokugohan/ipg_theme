@@ -1,0 +1,222 @@
+#list-recent-earthquake li{
+    padding: 0.75rem .25rem;
+    border: none;
+}
+#list-recent-earthquake li:first-child {
+    background-color: #f43438;
+
+    -webkit-animation: blink 1s linear infinite; /* Safari 4.0 - 8.0 */
+    animation: blink 1s linear infinite;
+}
+
+#list-recent-earthquake li:first-child a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.7;
+
+    }
+}
+
+.earthquake-logo-footer h5 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10%;
+}
+
+img.leaflet-marker-icon-active {
+    animation: double-flash_6380 1s ease infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes double-flash_6380 {
+    0% {
+        opacity: 1
+    }
+    25% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.earthquake-logo-footer {
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    width: 75px;
+    z-index: 999;
+}
+.earthquake-logo-footer img{
+    background: #f1f7df;
+    border-radius: 50%;
+}
+
+#modal-earthquake-list .modal-dialog {
+    position: absolute !important;
+    left: 1px;
+    top: 1px;
+    margin: 0 !important;
+}
+
+#modal-earthquake-list .modal-header{
+    background: #c2dd79;
+    color: #fff;
+}
+
+#modal-earthquake-list .modal-header .modal-title{
+    font-size: 1.25em;
+}
+
+#modal-earthquake-list .modal-header button.close{
+    color: #fff;
+}
+
+
+#map-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+.img-world {
+    width: 100%;
+    height: auto;
+}
+
+#btn-show-earthquake-list {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: 999;
+    background: #c2dd79;
+    color: #fff;
+    border: none;
+}
+
+img.leaflet-marker-icon-active {
+    animation: double-flash_6380 1s ease infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes double-flash_6380 {
+    0% {
+        opacity: 1
+    }
+
+    25% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    75% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+body {
+    /* font: 16px "Georgia",sans-serif; */
+    width: 100% !important;
+    padding-top: 64px !important;
+}
+
+.page-content-toggle{
+    /*margin-left: 0 !important;*/
+}
+
+.navbar-header ul.navbar-nav{
+    display: inline;
+    float: right;
+    color: white;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-header ul.navbar-nav li a{
+    display: block;
+    padding-top: .425rem;
+    padding-bottom: .425rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.navbar-header>img{
+    width: 50px;
+    display: inline;
+    background: white;
+    border-radius: 50%;
+}
+
+
+.navbar-nav li.active a{
+    color: #c2dd79 !important;
+}
+
+.select-item-display-container, .pageheader-title-container{
+    padding: 12px 24px;
+}
+
+.select-item-display-container .form-check-input{
+    margin-left: 0;
+}
+
+.pageheader-title-container h4.header-title{
+    font-size:13px;
+}
+
+.pageheader-title-container .citation{
+    font-size: 10px;
+    font-style: italic;
+}
+
+.pageheader-title-container .sidebar-logo{
+    width: 50px;
+    margin: 0 auto;
+}
+
+#most-recent-earthquake-list{
+    margin-top: 15px;
+}
+
+.divider{
+    background-color: #ccc;
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#most-recent-earthquake-list li h5{
+    font-size: 14px;
+}
+#most-recent-earthquake-list li h5 a{
+    color: #443131;
+}
+
+#most-recent-earthquake-list li::marker{
+    /*color: #c2dd79;*/
+    font-weight: 600;
+}

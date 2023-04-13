@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d5e87c8-721b-4642-812c-7054a02cfe92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/earthquake/bootstrap4-alpha3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/earthquake/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/earthquake/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/earthquake/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/earthquake/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/font-roboto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto-v15-latin-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto-v15-latin-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto-v15-latin-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto-v15-latin-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto-v15-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto-v15-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto-v15-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/roboto-v15-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/animate.css/animate.compat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/animate.css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/animate.css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/aos/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/aos/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap-icons/bootstrap-icons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/css/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/css/boxicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/css/transformations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/boxicons/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/glightbox/css/glightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/glightbox/css/glightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/glightbox/css/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/glightbox/css/plyr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/glightbox/js/glightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/glightbox/js/glightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/isotope-layout/isotope.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/php-email-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/remixicon/remixicon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/remixicon/remixicon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/remixicon/remixicon.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/remixicon/remixicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/remixicon/remixicon.symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/remixicon/remixicon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/remixicon/remixicon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/remixicon/remixicon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/swiper/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/swiper/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/swiper/swiper-bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpt/procurement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpt/studies_and_research.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/L.Icon.Pulse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/MarkerCluster.Default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/MarkerCluster.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/content-writing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/epicenter-aasdsactive.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/epicenter-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/epicenter_0_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/epicenter_5_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/epicenter_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/epicenter_6_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/eq.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/map_legend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/merrychristmass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/ipg_slider.php.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/L.Icon.Pulse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/leaflet.markercluster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/particles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxonomy-studies-and-research-division.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxonomy-studies-and-research-doc-type.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template_earthquake.php.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template_earthquake_map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/leaflet/leaflet-src.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/leaflet/leaflet-src.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/leaflet/leaflet.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/earthquake.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/earthquake.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/_ipg_slider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/header_menu_container.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/header_menu_container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/ipg_slider.copy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/ipg_slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/ipg_slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/earthquake.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/earthquake.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/earthquake_map_viewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/earthquake_map_viewer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/leaflet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/ipg_setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/settings/ipg_setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/ipg_setting_fragment_earthquake.php" beforeDir="false" afterPath="$PROJECT_DIR$/settings/ipg_setting_fragment_earthquake.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/ipg_setting_fragment_studies_and_research.php" beforeDir="false" afterPath="$PROJECT_DIR$/settings/ipg_setting_fragment_studies_and_research.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template_careers.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template_careers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template_earthquake.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template_earthquake.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template_front_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template_front_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template_procurement.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template_procurement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template_studies_and_research.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template_studies_and_research.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/leaflet/leaflet-src.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/leaflet/leaflet-src.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/leaflet/leaflet-src.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/leaflet/leaflet-src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/leaflet/leaflet.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/leaflet/leaflet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/leaflet/leaflet.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/leaflet/leaflet.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1stYBx13X9XRkB1Q7nrtGhCNd7g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ipg\wp-content\themes\ipg\templates" />
+      <recent name="C:\laragon\www\ipg\wp-content\themes\ipg" />
+      <recent name="C:\laragon\www\ipg\wp-content\themes\ipg\include" />
+      <recent name="C:\laragon\www\ipg\wp-content\themes\ipg\assets" />
+      <recent name="C:\laragon\www\ipg\wp-content\themes\ipg\cpt" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d5e87c8-721b-4642-812c-7054a02cfe92" name="Default Changelist" comment="" />
+      <created>1621693220475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621693220475</updated>
+      <workItem from="1621693222357" duration="217000" />
+      <workItem from="1621693465260" duration="8576000" />
+      <workItem from="1621739299371" duration="31921000" />
+      <workItem from="1621916385320" duration="15420000" />
+      <workItem from="1621953248975" duration="934000" />
+      <workItem from="1621988263083" duration="17668000" />
+      <workItem from="1622077843637" duration="7275000" />
+      <workItem from="1622159946507" duration="380000" />
+      <workItem from="1623200561232" duration="11773000" />
+      <workItem from="1623218867361" duration="11000" />
+      <workItem from="1623219365725" duration="143000" />
+      <workItem from="1624245192228" duration="9518000" />
+      <workItem from="1625643225012" duration="3821000" />
+      <workItem from="1627441020953" duration="1384000" />
+      <workItem from="1627862029993" duration="69000" />
+      <workItem from="1637128195695" duration="2979000" />
+      <workItem from="1638079234922" duration="8544000" />
+      <workItem from="1638094836756" duration="1356000" />
+      <workItem from="1655447716306" duration="9547000" />
+      <workItem from="1655510014068" duration="794000" />
+      <workItem from="1655602060685" duration="6941000" />
+      <workItem from="1655862517306" duration="14287000" />
+      <workItem from="1656029216665" duration="1283000" />
+      <workItem from="1658196530227" duration="10660000" />
+      <workItem from="1658450631682" duration="10890000" />
+      <workItem from="1662958673980" duration="3258000" />
+      <workItem from="1662968289673" duration="597000" />
+      <workItem from="1675644385192" duration="24685000" />
+      <workItem from="1675748525218" duration="1842000" />
+      <workItem from="1675839199192" duration="4059000" />
+      <workItem from="1675843364257" duration="86000" />
+      <workItem from="1675903201555" duration="12039000" />
+      <workItem from="1676015985265" duration="736000" />
+      <workItem from="1676231736102" duration="58000" />
+      <workItem from="1676247077214" duration="22506000" />
+      <workItem from="1676418904944" duration="3789000" />
+      <workItem from="1680567490989" duration="16388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

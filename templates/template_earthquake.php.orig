@@ -1,0 +1,234 @@
+<?php
+/*
+  Template Name: Earthquake page
+ */
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html <?php language_attributes(); ?>>
+<head>
+    <title><?=
+        get_bloginfo('name') . " ";
+        is_page() || is_category() ? wp_title('@') : "";
+        ?></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="icon" href="http://ipg.tl/wp-content/uploads/2017/08/logo-150x150.png" sizes="32x32">
+    <link rel="apple-touch-icon-precomposed"
+          href="<?php bloginfo('url') ?>/wp/wp-content/uploads/2018/05/cropped-logo-65x65-180x180.png"/>
+    <meta name="msapplication-TileImage"
+          content="<?php bloginfo('url') ?>/wp/wp-content/uploads/2018/05/cropped-logo-65x65-270x270.png"/>
+
+    <link rel="stylesheet" type="text/css"
+          href="<?php echo get_stylesheet_directory_uri() . '/vendor/bootstrap/css/bootstrap.min.css' ?>">
+    <link rel="stylesheet" type="text/css"
+          href="<?php echo get_stylesheet_directory_uri() . '/css/style.default.css' ?>">
+
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/custom.css' ?>">
+
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/earthquake.css' ?>">
+
+    <!-- //for bootstrap working -->
+    <link href="//fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/vendor/leaflet/leaflet.css' ?>"/>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/MarkerCluster.css' ?>"/>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/css/MarkerCluster.Default.css' ?>"/>
+
+    <style>
+        body {
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        #preloader .preloader-title {
+            width: 100%;
+        }
+
+        h4.header-title{
+            font-size: 1.1rem;
+        }
+
+        #most-recent-earthquake-list {
+            height: 60vh !important;
+            overflow-y: scroll;
+        }
+
+        #most-recent-earthquake-list li h5{
+            font-size: 1rem;
+        }
+
+        #most-recent-earthquake-list::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        #most-recent-earthquake-list::-webkit-scrollbar-track {
+            background: #eee;
+        }
+
+        #most-recent-earthquake-list::-webkit-scrollbar-thumb {
+            border-radius: 1rem;
+            background-color: #b5d65d;
+            background-image: linear-gradient(to top, #b5d65d 0%, #ffd239 100%);
+        }
+
+        #map-canvas {
+            height: 450px !important;
+        }
+        .graph-container{
+
+        }
+
+        #search-eq {
+            border-radius: 4px;
+        }
+
+        #total_to_display {
+            height: calc(2em + .75rem + 2px);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body class="container-fluid border m-0">
+
+
+<input type="hidden" id="earthquake_url" value="<?= get_earthquake_setting('earthquake_url'); ?>">
+<input type="hidden" id="earthquake_radius" value="<?= get_earthquake_setting('earthquake_radius'); ?>">
+<input type="hidden" id="municipality_map"
+       value="<?php echo get_stylesheet_directory_uri() . '/js/municipality.json' ?>">
+<div class="earthquake_container" id="earthquake_container">
+    <div class="row mx-0">
+        <div class="col-md-12 col-lg-2 mx-0 px-0">
+            <div class="card rounded border-0 shadow-sm position-relative logo-menu-container"
+                 style="background-color: #9ec92b">
+                <div class="card-body">
+                    <div class="mx-auto align-items-center border-bottom"><i
+                                class="far fa-calendar-alt fa-3x"></i>
+                        <div class="ms-3 text-center pageheader-title-container">
+                            <a href="<?php echo site_url(); ?>">
+                                <img src="<?php echo get_stylesheet_directory_uri() . '/images/logo.png' ?>"
+                                     class="img-fluid rounded" style="width: 100px;">
+                            </a>
+                            <h4 class="header-title">INSTITUTO DO PETRÓLEO E GEOLOGIA</h4>
+                            <cite class="citation" style="font-size: 12px">To be a credible Geoscience
+                                Research Institution in the
+                                world</cite>
+                        </div>
+
+                        <hr>
+
+                        <div class="row mb-3 mt-3">
+                            <div class="col-md-12">
+                                <!--<input type="text" name="search-eq" id="search-eq"
+                                       placeholder="Search earthquake epicenter here!"
+                                       class="form-control mt-4"/>-->
+                                <div class="form-group">
+                                    <label for="total_to_display">Total items to display</label>
+                                    <select name="total_to_display" id="total_to_display" class="custom-select form-control">
+                                        <option value="10" selected>10</option>
+                                        <option value="15">15</option>
+                                        <option value="20">20</option>
+                                        <option value="25">25</option>
+                                        <option value="50">50</option>
+                                        <option value="75">75</option>
+                                        <option value="100">100</option>
+                                        <option value="">All</option>
+                                    </select>
+                                </div>
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" id="display_all" type="checkbox" checked>
+                                    <label class="form-check-label" for="display_all">
+                                        <span class="fst-italic pl-1">Display only within radius  <?= number_format(get_earthquake_setting('earthquake_radius')); ?> km<sup>2</sup></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <ol id="most-recent-earthquake-list" class="list-numbers mb-0">
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-10 mx-0 px-0">
+            <div id="map-canvas">
+                <div class="earthquake-logo-footer">
+                    <img src="<?php echo get_stylesheet_directory_uri() . '/images/logo.png'; ?>" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="graph-container">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="preloader">
+    <h2 class="preloader-title">Instituto do Petróleo e Geologia</h2>
+</div>
+
+<script src="<?php echo get_stylesheet_directory_uri() . '/vendor/jquery/jquery.min.js' ?>"></script>
+<script src="<?php echo get_stylesheet_directory_uri() . '/vendor/bootstrap/js/bootstrap.bundle.min.js' ?>"></script>
+<script src="<?php echo get_stylesheet_directory_uri() . '/vendor/leaflet/leaflet.js' ?>"></script>
+<script src="<?php echo get_stylesheet_directory_uri() . '/js/leaflet.markercluster.js' ?>"></script>
+<script src="<?php echo get_stylesheet_directory_uri() . '/js/chart.min.js' ?>"></script>
+
+<script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri() . '/js/leaflet.contextmenu.js' ?>"></script>
+<script src="<?php echo get_stylesheet_directory_uri() . '/js/earthquake.js' ?>"></script>
+<script src="<?php echo get_stylesheet_directory_uri() . '/js/earthquake_map_viewer.js' ?>"></script>
+
+<script>
+    $(window).on('load', function () {
+        if ($('#preloader').length) {
+            $('#preloader').delay(100).fadeOut('slow', function () {
+                $(this).remove();
+            });
+
+        }
+    });
+
+    $(document).ready(function (){
+        const labels = [
+            'January',
+            'February',
+            'March',
+            'April',
+            'May',
+            'June',
+        ];
+
+        const colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue','green']
+
+        const data = {
+            labels: labels,
+            datasets: [{
+                label: 'My First dataset',
+                backgroundColor: colors,
+                borderColor: 'rgb(255, 99, 132)',
+                data: [0, 10, 5, 2, 20, 30, 45],
+            }]
+        };
+
+        const config = {
+            type: 'pie',
+            data: data,
+            options: {}
+        };
+
+        const myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+        );
+    })
+</script>
+
+</body>
+</html>
+

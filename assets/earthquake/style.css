@@ -1,0 +1,232 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding-top: 64px;
+}
+
+#header {
+  background-color: #34495e;
+  height: 64px;
+  margin-bottom: 0;
+  padding: 0;
+  position: fixed;
+}
+
+#header .container-fluid {
+  padding: 8px;
+}
+
+#header .navbar-header {
+  margin: 0;
+}
+
+#header #sidebar-toggle-button {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  margin: 0 15px;
+  padding: 12px 6px;
+}
+
+#header .brand {
+  display: inline-block;
+  padding: 12px 16px 12px 0;
+}
+
+#header .brand a {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+/* side menu toggle and preloader */
+#sidebar-toggle-button-menu{
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0 15px;
+    padding: 12px 6px;
+    display: none;
+}
+
+
+@media (max-width: 775px) {
+    .navbar-header ul.navbar-nav{
+        background: #34495e;
+        float: none !important;
+        margin: 3px -8px 0 -8px;
+        display: none !important;
+        transition: .5s ease-in-out;
+    }
+    .navbar-header ul.navbar-nav li a{
+        display: inline-block;
+    }
+    .navbar-nav .nav-item{
+        float: none;
+    }
+    .navbar-nav .nav-item+.nav-item{
+        margin-left: 0;
+    }
+
+    ul.navbar-nav.show-menu{
+        display: block !important;
+    }
+    #sidebar-toggle-button-menu{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+
+    #preloader .preloader-title{
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-title{
+        font-size: 20px !important;
+    }
+    .custom-form-select, .input-radius{
+        display: block !important;
+        float: none !important;;
+        width: 100% !important;;
+        margin-top: 8px;
+    }
+    #preloader:before{
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+#sidebar {
+  background-color: #eceef1;
+  bottom: 0;
+  display: block;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0;
+  position: fixed;
+  top: 64px;
+  width: 300px;
+  z-index: 9999;
+}
+
+#sidebar > ul {
+  padding-bottom: 24px;
+}
+
+#sidebar > ul > li {
+  margin: 0;
+}
+
+#sidebar > ul > li > a {
+  color: #20252b;
+  display: block;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+#sidebar > ul > li > a > span {
+  font-size: 17px;
+  font-weight: 500;
+	margin-left: 17px;
+}
+
+#sidebar > ul > li > a:hover,
+#sidebar > ul > li > a.active {
+	border-right: 4px solid #34495e;
+}
+
+
+#sidebar > ul > .divider {
+  background-color: #ccc;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+}
+
+#page-content-wrapper > .container-fluid {
+  padding-top: 0.75rem;
+}
+
+/*------ sidebar toggle ------*/
+.sidebar-toggle {
+  display: none !important;
+}
+
+.page-content-toggle {
+  margin-left: inherit !important;
+}
+
+@media (min-width: 1600px) {
+  #sidebar {
+    display: none;
+  }
+  .sidebar-toggle {
+    display: block !important;
+  }
+  .page-content-toggle {
+    margin-left: 300px !important;
+  }
+}
+/*------ /sidebar toggle ------*/
+
+/*------ real time page charts ------*/
+#users-device-doughnut-chart,
+#users-medium-pie-chart,
+#users-category-pie-chart,
+#page-views-per-second-column-chart,
+#page-views-per-minute-column-chart,
+#users-state-bar-chart {
+  height: 300px;
+}
+/*------ /real time page charts ------*/
+
+/*------ overview page charts ------*/
+#revenue-spline-area-chart,
+#annual-revenue-by-category-pie-chart,
+#monthly-revenue-by-category-column-chart {
+	height: 300px;
+}
+
+#visitors-chart,
+#users-spline-chart {
+	height: 320px;
+}
+/*------ /overview page charts ------*/
+
+.card {
+	background-color: inherit;
+	border: none;
+}
+
+.card-title {
+	border-bottom: 1px solid;
+	padding-bottom: 10px;
+	font-size: 	26px;
+	font-weight: 300;
+}
+
+#revenue-tag, .custom-tag {
+	background-color: #d9695f;
+	border-radius: 0;
+	font-weight: 400;
+	vertical-align: top;
+}
+
+.custom-tag {
+	font-size: 100%;
+}
+
+#visitors-chart-back-button {
+	padding: 0.3rem 0.6rem;
+}
+
+#visitors-chart-tag {
+	position: absolute;
+}
