@@ -326,12 +326,15 @@ Earthquake.prototype.showRecentEarthquake = function (data, eventTrigger = false
 
     var pulsingIcon =L.icon.pulse({iconSize:[40,40],color:'red',heartbeat: '500m'});
 
-    marker = L.marker([data.latitude,data.longitude],{icon: pulsingIcon});
+    let marker = L.marker([data.latitude,data.longitude],{icon: pulsingIcon});
     marker.bindPopup(popupContent).openPopup();
+    
+    //L.DomUtil.addClass(marker._icon, 'leaflet-marker-icon-active');
 
-    this.marker_clusters.addLayer(marker);
-    this.mapa.addLayer(this.marker_clusters);
-    L.DomUtil.addClass(marker._icon, 'leaflet-marker-icon-active');
+    // this.marker_clusters.addLayer(marker);
+    // this.mapa.addLayer(this.marker_clusters);
+    
+    marker.addTo(this.mapa);
 }
 
 Earthquake.prototype.showAllRecentEarthquakeOnMap = function (listData, showOnlyWithinPreferedRadius = true) {
